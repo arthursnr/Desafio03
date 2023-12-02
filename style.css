@@ -20,12 +20,13 @@ fieldset,
 body {
     background: #EFEFEF;
     height: 100vh;
+    width: 100vw;
 
 }
 
 body::before {
     content: '';
-    width: 100%;
+    width: 100vw;
     height: 436px;
 
     position: absolute;
@@ -43,7 +44,7 @@ body::before {
 header {
     margin-top: 64px;
     height: 108px;
-    width: 417px;
+    width: 100vw;
 }
 
 header h1 {
