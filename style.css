@@ -26,7 +26,7 @@ body {
 
 body::before {
     content: '';
-    width: 750px;
+    width: 100vw;
     height: 436px;
 
     position: absolute;
